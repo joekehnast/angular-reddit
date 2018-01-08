@@ -12,6 +12,7 @@ export class ArticleComponent implements OnInit {
 
   constructor() {
     //this.article = new Article("Angular 2", "http://angular.io", 10);
+    //added comment testing git.
    }
 
    voteUp() : boolean {
@@ -21,6 +22,7 @@ export class ArticleComponent implements OnInit {
    voteDown() : boolean {
      this.articleItem.voteDown();
      return false;
+
    }
 
   ngOnInit() {
