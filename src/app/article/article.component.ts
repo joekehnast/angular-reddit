@@ -12,7 +12,7 @@ export class ArticleComponent implements OnInit {
 
   constructor() {
     //this.article = new Article("Angular 2", "http://angular.io", 10);
-    //added comment testing git.
+    //added comment testing git. K.  trying again.
    }
 
    voteUp() : boolean {
